@@ -43,14 +43,12 @@ body{
 }
 .price-list__title::after{
   content: '';
-  width: 340px;
-  height: 100px;
-  position: absolute;
+  width: 160px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
   background-image: url(./img/pepper.png);
-  background-position: 183px 26px;
   background-repeat: no-repeat;
-  bottom: -85px;
-  left: -100px;
   transform: rotate(1deg);
 }
 .icons{
@@ -92,6 +90,9 @@ body{
   text-align: center;
   cursor: pointer;
   
+}
+.price{
+  font-weight: 700;
 }
 @media screen and (max-width:400px) {
   .wrapper{

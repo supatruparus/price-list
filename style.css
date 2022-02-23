@@ -94,6 +94,17 @@ body{
 .price{
   font-weight: 700;
 }
+.form{
+  visibility: hidden;
+  margin: 40px auto 0 auto;
+  background-color: white;
+  display: block;
+  position: absolute;
+  top: 10vh;
+  right: 0px;
+  
+  
+}
 @media screen and (max-width:400px) {
   .wrapper{
     width: 320px;

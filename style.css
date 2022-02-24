@@ -117,4 +117,8 @@ body{
   .backcall{
     margin-top: 15px;
   }
+  .form{
+    width: 100vw;
+    height: 100vh;
+  }
 }
